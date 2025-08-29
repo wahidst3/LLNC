@@ -1,10 +1,22 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
+=======
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+>>>>>>> 8bd5e17065acfca8f102cdd1d6266f40725e04af
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+<<<<<<< HEAD
 lerna-debug.log*
 
 node_modules
@@ -17,9 +29,34 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+=======
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+>>>>>>> 8bd5e17065acfca8f102cdd1d6266f40725e04af
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+<<<<<<< HEAD
 *.sw?
 .env
+=======
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase cache/config
+.firebase/
+.firebaserc
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+>>>>>>> 8bd5e17065acfca8f102cdd1d6266f40725e04af
